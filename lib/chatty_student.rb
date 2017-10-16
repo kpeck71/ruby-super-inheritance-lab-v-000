@@ -8,4 +8,5 @@ class ChattyStudent < Student
   def pick_me
     super.times(10)
   end
+  
 end
