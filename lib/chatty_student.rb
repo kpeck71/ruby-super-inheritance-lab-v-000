@@ -6,7 +6,17 @@ class ChattyStudent < Student
   end
 
   def pick_me
-    10.times.collect {super}
+    super
+    super
+    super
+    super
+    super
+    super
+    super
+    super
+    super
+    super
+    
   end
 
 end
