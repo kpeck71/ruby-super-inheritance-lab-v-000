@@ -6,7 +6,7 @@ class ChattyStudent < Student
   end
 
   def pick_me
-    puts super.times(10)
+    10.times.super
   end
 
 end
