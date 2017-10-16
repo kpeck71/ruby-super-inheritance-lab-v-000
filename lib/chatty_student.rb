@@ -6,7 +6,7 @@ class ChattyStudent < Student
   end
 
   def pick_me
-    10.times
+    10.times.collect {super}
   end
 
 end
